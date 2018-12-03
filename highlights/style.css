@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body { font-family: 'Roboto', sans-serif; }
+
+.custom-container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.custom-container-inner {
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 25px;
+  padding-bottom: 100px;
+}
+
+.clearfix { clear: both; }
+
+.custom-container-inner h1 {
+  margin: 0px;
+  margin-bottom: 23px;
+  font-weight: normal;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 13px;
+  font-size: 20px;
+}
+
+.custom-container-inner h2 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
+.custom-active-deactive:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+code {
+  padding: 10PX;
+  display: block;
+  background: #c52626;
+  color: #fff;
+  float: left;
+}
+
+/* 
+CSS ONLY FOR PLUGIN 
+*/
+
+.active-deactive-section ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.custom-deactive {
+  background: #ccc;
+  color: #1b1919;
+}
+
+.active-deactive-section li { display: inline-block; }
+
+.active-deactive-item {
+  display: block;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  margin-left: 9px;
+  margin-top: 25px;
+  float:left;
+  border-radius:3px;
+  font-weight:bold;
+}
+
+.why-i-will { padding-top: 50px; }
